@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <form class="sendto">
+      <div class="uai">
+        <div class="user"><input id="u1" type="text" placeholder="Nome" /></div>
+        <div class="user">
+          <input id="u2" type="text" placeholder="Destino" />
+        </div>
+      </div>
+      <div class="caixamsg">
+        <nav class="textos">
+          <ul id="lis">
+            <li>
+              <dt>nome</dt>
+              <dd>mensagem</dd>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="textsend">
+        <div class="msgtext">
+          <textarea
+            name="mensagem"
+            id="mensagem"
+            placeholder="Mensagem"
+            rows="6"
+            cols="50"
+          ></textarea>
+        </div>
+    
+        <input 
+          type="button"  
+          class="button"
+          value="button"
+          onclick="chat.enviar()"
+        />
+        
+      </div>
+    </form>
+
+    <script src="./javascript.js"></script>
+  </body>
+</html>
