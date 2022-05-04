@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,19 +8,33 @@
     <title>Chat</title>
   </head>
   <body>
+    
+  <!-- partial -->
+    
+  </body2>
+  
+
+    <div class="screen ">
+      
+      
     <form class="sendto">
+      
       <div class="uai">
+        
         <div class="user"><input id="u1" type="text" placeholder="Nome" /></div>
         <div class="user">
-          <input id="u2" type="text" placeholder="Destino" />
-        </div>
+<select name="select" id="u2">
+
+</select>     
+
+</div>
       </div>
       <div class="caixamsg">
         <nav class="textos">
           <ul id="lis">
             <li>
-              <dt>nome</dt>
-              <dd>mensagem</dd>
+              <dt>Usuário</dt>
+              <dd>Mensagem</dd>
             </li>
           </ul>
         </nav>
@@ -34,17 +48,23 @@
             rows="6"
             cols="50"
           ></textarea>
+          <img src="./Opera Instantâneo_2022-05-03_160753_index.html.png " id="teclado" alt="" srcset="">
         </div>
     
         <input 
           type="button"  
           class="button"
-          value="button"
+          value="send"
           onclick="chat.enviar()"
         />
         
       </div>
+    </div>
     </form>
+
+    
+
+    
 
     <script src="./javascript.js"></script>
   </body>
